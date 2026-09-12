@@ -127,6 +127,11 @@ flutter --version
 1. 在專案中設定使用 Termux 本地 `aapt2`、關閉混淆縮減（避免 JVM 記憶體崩潰）及關閉資源優化：
 ```properties
 # android/gradle.properties
+
+> **Development home:** https://github.com/ImL1s/termux-flutter-wsl  
+> Please open issues and pull requests there.  
+> **Mirrors:** [Codeberg](https://codeberg.org/ImL1s/termux-flutter-wsl) · [GitLab](https://gitlab.com/aa22396584/termux-flutter-wsl)
+
 android.aapt2FromMavenOverride=/data/data/com.termux/files/usr/bin/aapt2
 android.enableResourceOptimizations=false
 shrink=false
