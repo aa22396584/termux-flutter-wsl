@@ -296,7 +296,7 @@ release/flutter_3.44.9-1_aarch64.deb
 
 在新的 Termux 環境測試：
 ```bash
-curl -sL https://raw.githubusercontent.com/ImL1s/termux-flutter-wsl/master/install_flutter_complete.sh -o ~/install.sh && bash ~/install.sh
+curl -sL https://codeberg.org/ImL1s/termux-flutter-wsl/raw/branch/master/install_flutter_complete.sh -o ~/install.sh && bash ~/install.sh
 ```
 
 ---

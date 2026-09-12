@@ -97,7 +97,7 @@ Last full device validation: **2026-08-23**, Samsung SM-X716B / Android 16 / Ter
 ```bash
 pkg update && pkg upgrade -y
 pkg install -y curl
-curl -L https://raw.githubusercontent.com/ImL1s/termux-flutter-wsl/master/install_flutter_complete.sh -o install_flutter_complete.sh
+curl -L https://codeberg.org/ImL1s/termux-flutter-wsl/raw/branch/master/install_flutter_complete.sh -o install_flutter_complete.sh
 bash install_flutter_complete.sh
 ```
 

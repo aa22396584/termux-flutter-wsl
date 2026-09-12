@@ -3,7 +3,7 @@
 # Termux Flutter 完整安裝腳本
 # Complete Flutter + Android SDK Installation for Termux
 #
-# Usage: curl -sL https://raw.githubusercontent.com/ImL1s/termux-flutter-wsl/master/install_flutter_complete.sh -o ~/install.sh && bash ~/install.sh
+# Usage: curl -sL https://codeberg.org/ImL1s/termux-flutter-wsl/raw/branch/master/install_flutter_complete.sh -o ~/install.sh && bash ~/install.sh
 # Version: 2026-01-06 v14
 #
 # 這個腳本會自動完成：
@@ -27,7 +27,7 @@ elif [ -f "scripts/install/lib_common.sh" ]; then
 else
     echo "Fetching lib_common.sh..."
     mkdir -p scripts/install
-    curl -sLO https://raw.githubusercontent.com/ImL1s/termux-flutter-wsl/master/scripts/install/lib_common.sh || true
+    curl -sLO https://codeberg.org/ImL1s/termux-flutter-wsl/raw/branch/master/scripts/install/lib_common.sh || true
     if [ -f lib_common.sh ]; then
         mv lib_common.sh scripts/install/
     fi
@@ -367,7 +367,7 @@ ANDROID_SDK_EXPECTED_SHA256="fc727c848b8ca4e3011515850702adc1bf98ceae7205d7acc82
 NDK_EXPECTED_SHA256="02e10e4ddfe8deaeb0bd0cf29d04c981ed5bc8a5d6b560ebb9e7661f472d684b"
 SNAPSHOT_EXPECTED_SHA256="527f074d86660fd3f7c900fc8c1ebd5a2ebc4581e174eb8cf9fe343a1664402d"
 NDK_VERSION="29.0.14206865"
-REPO_BASE="https://raw.githubusercontent.com/ImL1s/termux-flutter-wsl/master"
+REPO_BASE="https://codeberg.org/ImL1s/termux-flutter-wsl/raw/branch/master"
 
 
 echo -e "${CYAN}"

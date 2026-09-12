@@ -3,7 +3,7 @@
 # Termux Android SDK 安裝腳本
 # Android SDK Installation Script for Flutter APK Building
 #
-# Usage: curl -sL https://raw.githubusercontent.com/ImL1s/termux-flutter-wsl/master/setup_android_sdk.sh -o ~/setup.sh && bash ~/setup.sh
+# Usage: curl -sL https://codeberg.org/ImL1s/termux-flutter-wsl/raw/branch/master/setup_android_sdk.sh -o ~/setup.sh && bash ~/setup.sh
 #
 # 這個腳本會安裝和配置 Android SDK，讓 flutter build apk 可以正常運作。
 # This script installs and configures Android SDK for flutter build apk to work.

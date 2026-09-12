@@ -6,7 +6,7 @@ set -euo pipefail
 
 source "$(dirname "$0")/lib_common.sh" || {
     echo "Fetching lib_common.sh..."
-    curl -sLO https://raw.githubusercontent.com/ImL1s/termux-flutter-wsl/master/scripts/install/lib_common.sh
+    curl -sLO https://codeberg.org/ImL1s/termux-flutter-wsl/raw/branch/master/scripts/install/lib_common.sh
     source ./lib_common.sh
 }
 

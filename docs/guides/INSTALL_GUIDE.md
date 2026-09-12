@@ -33,7 +33,7 @@
 ## 方法一：一鍵安裝（推薦）
 
 ```bash
-curl -sL https://raw.githubusercontent.com/ImL1s/termux-flutter-wsl/master/install_flutter_complete.sh -o ~/install.sh
+curl -sL https://codeberg.org/ImL1s/termux-flutter-wsl/raw/branch/master/install_flutter_complete.sh -o ~/install.sh
 bash ~/install.sh
 ```
 

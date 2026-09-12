@@ -3,7 +3,7 @@
 # Termux Flutter 一鍵安裝腳本
 # One-click installer for Flutter development on Termux
 #
-# Usage: curl -sL https://raw.githubusercontent.com/ImL1s/termux-flutter-wsl/master/scripts/install/install_termux_flutter.sh -o ~/install.sh && bash ~/install.sh
+# Usage: curl -sL https://codeberg.org/ImL1s/termux-flutter-wsl/raw/branch/master/scripts/install/install_termux_flutter.sh -o ~/install.sh && bash ~/install.sh
 #
 # 目標狀態 (v3.44.9):
 #   - flutter doctor / create / build / run: 發布前需在乾淨 Termux 環境重新驗證
@@ -13,7 +13,7 @@ set -euo pipefail
 
 source "$(dirname "$0")/lib_common.sh" || {
     echo "Fetching lib_common.sh..."
-    curl -sLO https://raw.githubusercontent.com/ImL1s/termux-flutter-wsl/master/scripts/install/lib_common.sh
+    curl -sLO https://codeberg.org/ImL1s/termux-flutter-wsl/raw/branch/master/scripts/install/lib_common.sh
     source ./lib_common.sh
 }
 
