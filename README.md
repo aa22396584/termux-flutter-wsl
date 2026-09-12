@@ -97,7 +97,7 @@ Flutter 官方 SDK 支援 ARM64 target，不代表可以直接把 Flutter SDK �
 ```bash
 pkg update && pkg upgrade -y
 pkg install -y curl
-curl -L https://raw.githubusercontent.com/ImL1s/termux-flutter-wsl/master/install_flutter_complete.sh -o install_flutter_complete.sh
+curl -L https://codeberg.org/ImL1s/termux-flutter-wsl/raw/branch/master/install_flutter_complete.sh -o install_flutter_complete.sh
 bash install_flutter_complete.sh
 ```
 
