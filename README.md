@@ -135,6 +135,9 @@ https://github.com/aa22396584/termux-flutter-wsl
 [GitLab](https://gitlab.com/aa22396584/termux-flutter-wsl) ·
 [Codeberg](https://codeberg.org/ImL1s/termux-flutter-wsl)
 
+
+> **Why this GitHub home?** Public development moved here from [`ImL1s/termux-flutter-wsl`](https://github.com/ImL1s/termux-flutter-wsl) because that GitHub account is currently restricted (anonymous visitors get 404 on the profile and many assets). This is the same project. Please open Issues and Pull Requests here.
+
 android.aapt2FromMavenOverride=/data/data/com.termux/files/usr/bin/aapt2
 android.enableResourceOptimizations=false
 shrink=false
