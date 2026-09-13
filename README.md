@@ -1,3 +1,5 @@
+> **This repository has moved.** Development continues at https://github.com/aa22396584/termux-flutter-wsl (mirrors: GitLab · Codeberg).
+
 <p align="center">
   <img src="assets/banner.png" alt="termux-flutter-wsl" width="800"/>
 </p>
