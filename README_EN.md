@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/Flutter-3.44.9-02569B?logo=flutter" alt="Flutter Version"/>
   <img src="https://img.shields.io/badge/Dart-3.12.2-0175C2?logo=dart" alt="Dart Version"/>
   <img src="https://img.shields.io/badge/Target-aarch64-green" alt="Target"/>
-  <a href="https://github.com/ImL1s/termux-flutter-wsl/actions/workflows/ci.yml"><img src="https://github.com/ImL1s/termux-flutter-wsl/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
+  <a href="https://github.com/aa22396584/termux-flutter-wsl/actions/workflows/ci.yml"><img src="https://github.com/aa22396584/termux-flutter-wsl/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
   <img src="https://img.shields.io/badge/License-GPL--3.0-blue" alt="License"/>
 </p>
 
@@ -64,7 +64,7 @@ This repository packages a Flutter SDK for Termux ARM64:
 | Flutter | `3.44.9` |
 | Dart | `3.12.2` |
 | Architecture | `aarch64` / `arm64-v8a` |
-| Release asset | [`flutter_3.44.9-1_aarch64.deb`](https://github.com/ImL1s/termux-flutter-wsl/releases/tag/v3.44.9-termux-1) |
+| Release asset | [`flutter_3.44.9-1_aarch64.deb`](https://github.com/aa22396584/termux-flutter-wsl/releases/tag/v3.44.9-termux-1) |
 | Size | `178,490,900` bytes (~170 MiB) |
 | SHA256 | `ca2cb4de90e657db5445ea3142bfdc71e6be511da8f56b8cdfd9eb49d71ac6b0` |
 
@@ -105,7 +105,7 @@ bash install_flutter_complete.sh
 
 ```bash
 pkg update && pkg install -y wget
-wget https://github.com/ImL1s/termux-flutter-wsl/releases/download/v3.44.9-termux-1/flutter_3.44.9-1_aarch64.deb
+wget https://github.com/aa22396584/termux-flutter-wsl/releases/download/v3.44.9-termux-1/flutter_3.44.9-1_aarch64.deb
 sha256sum flutter_3.44.9-1_aarch64.deb
 
 dpkg -i flutter_3.44.9-1_aarch64.deb
